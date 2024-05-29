@@ -14,6 +14,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <!-- Title -->
   <title>Sermons - <?= $_ENV['APP_NAME'] ?></title>
+  <link rel="icon" type="image/png" href="./logo.png">
   <!-- Bootstrap -->
   <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" />
   <!-- Animate on scroll -->

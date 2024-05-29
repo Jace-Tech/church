@@ -16,7 +16,7 @@
   <!-- Title -->
   <title>Contact - <?= $_ENV['APP_NAME'] ?></title>
   <!-- Favicon -->
-  <link rel="icon" type="image/x-icon" href="assets/images/pastor-icon.webp" />
+  <link rel="icon" type="image/png" href="./logo.png">
   <!-- Bootstrap -->
   <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" />
   <!-- Animate on scroll -->
@@ -89,42 +89,25 @@
         <div class="col-lg-6 col-md-12 col-sm-12">
           <div class="content">
             <div class="c-detail d-flex" data-aos="fade-right" data-aos-delay="500" data-aos-duration="1000">
-              <span class="font-bold">United State</span>
+              <span class="font-bold">Nigeria</span>
 
               <ul>
                 <li>
-                  901-947 South Ripple Creek Drive,
-                  Houston, TX 77057, USA
+                  <?= $_ENV['APP_ADDRESS'] ?>
                 </li>
 
-                <li><span>Telephone:</span> +1 555 1234</li>
-
-                <li><span>Fax:</span> +1 555 4444</li>
+                <li>
+                  <span>Telephone (1):</span> 
+                  <a href="tel:<?= $_ENV['APP_PHONE_1'] ?>" class="text-dark"><?= $_ENV['APP_PHONE_1'] ?></a>
+                </li>
 
                 <li>
-                  <span>Email:</span> username@domain.com
+                  <span>Telephone (2):</span> 
+                  <a href="tel:<?= $_ENV['APP_PHONE_2'] ?>" class="text-dark"><?= $_ENV['APP_PHONE_2'] ?></a>
                 </li>
               </ul>
             </div>
 
-            <div class="c-detail d-flex" data-aos="fade-right" data-aos-delay="800" data-aos-duration="1500">
-              <span class="font-bold">South Africa</span>
-
-              <ul>
-                <li>
-                  901-947 South Ripple Creek Drive,
-                  Houston, TX 77057, USA
-                </li>
-
-                <li><span>Telephone:</span> +1 555 1234</li>
-
-                <li><span>Fax:</span> +1 555 4444</li>
-
-                <li>
-                  <span>Email:</span> username@domain.com
-                </li>
-              </ul>
-            </div>
           </div>
         </div>
 
@@ -147,7 +130,7 @@
 
       <div class="row">
         <div class="map">
-          <iframe class="w-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26137911.08693326!2d17.528036024622846!3d36.8984100952845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f0da6b3046c9d%3A0xa7b70f43237dbb45!2sUniversity%20of%20South%20Wales!5e0!3m2!1sen!2s!4v1629136073507!5m2!1sen!2s" width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy"></iframe>
+        <iframe class="w-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31776.765069724715!2d6.987902052330753!3d5.402400052898844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10425e82438beb63%3A0x6800046a958489fd!2sIhiagwa%2C%20Imo!5e0!3m2!1sen!2sng!4v1716978518991!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
       </div>
 

@@ -1,9 +1,14 @@
 <?php 
 
+// define("HOST", "localhost");
+// define("USER", "root");
+// define("PASSWORD", "");
+// define("DB_NAME", "church");
+
 define("HOST", "localhost");
-define("USER", "root");
-define("PASSWORD", "");
-define("DB_NAME", "church");
+define("USER", "trinypxj_root");
+define("PASSWORD", "dPklDFJJyF18");
+define("DB_NAME", "trinypxj_church");
 
 
 $DSN = "mysql:dbname=" . DB_NAME . ";host" . HOST;

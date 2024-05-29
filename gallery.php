@@ -18,7 +18,7 @@
   <!-- Title -->
   <title>Gallery - <?= $_ENV['APP_NAME'] ?></title>
   <!-- Favicon -->
-  <link rel="icon" type="image/x-icon" href="assets/images/pastor-icon.webp" />
+  <link rel="icon" type="image/png" href="./logo.png">
   <!-- Bootstrap -->
   <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" />
   <!-- Animate on scroll -->

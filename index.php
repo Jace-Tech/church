@@ -26,7 +26,7 @@ $MEMORIES = getAllMemories($connect, 6);
 	<!-- Slick Slider -->
 	<link rel="stylesheet" type="text/css" href="assets/css/slick.css">
 	<!-- Favicon -->
-	<link rel="icon" type="image/x-icon" href="assets/images/pastor-icon.webp">
+	<link rel="icon" type="image/png" href="./logo.png">
 
 	<!-- Animate on scroll -->
 	<link rel="stylesheet" type="text/css" href="assets/css/aos.css">
